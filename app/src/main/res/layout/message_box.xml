@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="102dp"
         android:layout_height="wrap_content"
-        android:text="Message"
+        android:text="Asavari"
         android:id="@+id/textView" />
 
     <TextView

@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Background"
+    android:background="@drawable/background"
     android:id="@+id/loginscreen">
 
     <EditText
@@ -32,10 +32,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
+        android:id="@+id/login"
         android:layout_marginTop="71dp"
         android:background="@drawable/loginbutton"
         android:layout_below="@+id/password"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="login" />
 
 </RelativeLayout>
